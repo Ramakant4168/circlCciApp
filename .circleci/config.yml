@@ -27,6 +27,8 @@ jobs:
           - v1-dependencies-
 
       - run: npm install
+      - run: sudo npm install -g serverless
+          
 
       - save_cache:
           paths:
