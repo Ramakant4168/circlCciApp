@@ -8,6 +8,7 @@ provider:
   runtime: nodejs6.10
 
 plugins:
+  - serverless-webpack
   - serverless-offline
 
 functions:
